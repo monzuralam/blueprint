@@ -1,4 +1,10 @@
 {
+    "meta": {
+		"title": "Dracula Dark Mode",
+		"author": "softlab",
+		"description": "A preview of the latest version of the Dracula Dark Mode.",
+		"categories": ["plugins"]
+	},
     "landingPage": "/",
     "preferredVersions": {
         "php": "8.0",
