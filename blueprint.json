@@ -15,6 +15,9 @@
     "phpExtensionBundles": [
         "kitchen-sink"
     ],
+    "features": {
+        "networking": true
+    },
     "steps": [
         {
             "step": "login",
@@ -30,17 +33,13 @@
             "options": {
                 "activate": true
             }
+        },
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "Dracula Dark Mode Demo",
+                "blogdescription": "A preview of the latest version of the Dracula Dark Mode."
+            }
         }
-    ],
-    "features": {
-        "networking": true
-    },
-    "settings": {
-        "title": "Dracula Dark Mode",
-        "tagline": "A preview of the latest version of the Dracula Dark Mode.",
-        "admin_email": "admin@softlabbd.com",
-        "timezone": "UTC",
-        "date_format": "F j, Y",
-        "time_format": "g:i a"
-    }
+    ]
 }
