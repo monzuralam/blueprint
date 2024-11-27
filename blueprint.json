@@ -1,11 +1,13 @@
 {
     "meta": {
-		"title": "Dracula Dark Mode",
-		"author": "softlab",
-		"description": "A preview of the latest version of the Dracula Dark Mode.",
-		"categories": ["plugins"]
-	},
-    "landingPage": "/wp-admin/admin.php?page=dracula-getting-started",
+        "title": "Dracula Dark Mode",
+        "author": "softlab",
+        "description": "A preview of the latest version of the Dracula Dark Mode.",
+        "categories": [
+            "plugins"
+        ]
+    },
+    "landingPage": "/wp-admin/admin.php?page=dracula",
     "preferredVersions": {
         "php": "8.0",
         "wp": "6.7.1"
@@ -22,12 +24,23 @@
         {
             "step": "installPlugin",
             "pluginZipFile": {
-                "resource": "wordpress.org\/plugins",
+                "resource": "wordpress.org/plugins",
                 "slug": "dracula-dark-mode"
             },
             "options": {
                 "activate": true
             }
         }
-    ]
+    ],
+    "features": {
+        "networking": true
+    },
+    "settings": {
+        "title": "Dracula Dark Mode",
+        "tagline": "A preview of the latest version of the Dracula Dark Mode.",
+        "admin_email": "admin@softlabbd.com",
+        "timezone": "UTC",
+        "date_format": "F j, Y",
+        "time_format": "g:i a"
+    }
 }
